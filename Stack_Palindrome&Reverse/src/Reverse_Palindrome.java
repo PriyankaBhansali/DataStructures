@@ -13,16 +13,16 @@ class Reverse_Palindrome
 		int i=0;
 	
 		
-To Reverse a String using Stack
-		
-		for(int j=0;j<a.length;j++)
-		{
-				System.out.print(s.push(a[j]));
-		}
-	
-			System.out.println("\n\nNew Reversed string");
-			while(!s.empty())
-		System.out.print(s.pop());
+//To Reverse a String using Stack
+//		
+//		for(int j=0;j<a.length;j++)
+//		{
+//				System.out.print(s.push(a[j]));
+//		}
+//	
+//			System.out.println("\n\nNew Reversed string");
+//			while(!s.empty())
+//		System.out.print(s.pop());
 		
 		
 		for(;i<a.length/2;i++)
