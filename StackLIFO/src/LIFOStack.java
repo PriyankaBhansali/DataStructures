@@ -16,6 +16,15 @@ class Stack {
 		a=new int[n];
 	}
 
+	void display()
+	{
+		for(int i=0;i<=top;i++)
+		{
+			System.out.print(a[i]+ " ");
+		}
+		System.out.println();
+	}
+
 	void push(int v)
 	{
 		if(top==a.length-1)
