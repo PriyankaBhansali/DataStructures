@@ -85,6 +85,7 @@ class Demo {
         System.out.println( q.remove());
         q.add(80);
         System.out.println( q.remove());
+        System.out.println();
         System.out.println( q.toString());
 
 
