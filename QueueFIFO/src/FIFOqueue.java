@@ -25,8 +25,8 @@ class Queue {
 		throw new Exception("Queue is Full");
 		else if(isEmpty()){
 			front++;
-                    rear++;
-                    a[rear] = v;
+                        rear++;
+                        a[rear] = v;
 		}
 		else
 		{
@@ -86,8 +86,6 @@ class Demo {
         q.add(80);
         System.out.println( q.remove());
         System.out.println( q.toString());
-
-
     }
 
 }
